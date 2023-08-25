@@ -576,6 +576,10 @@ video {
   height: 4rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-12 {
   width: 3rem;
 }
@@ -599,6 +603,14 @@ video {
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.grow {
+  flex-grow: 1;
 }
 
 .flex-col {
@@ -655,6 +667,14 @@ video {
 
 .p-6 {
   padding: 1.5rem;
+}
+
+.p-0 {
+  padding: 0px;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .text-center {

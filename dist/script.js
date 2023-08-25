@@ -1,5 +1,6 @@
 const url = "https://api.adviceslip.com/advice";
 const adviceCont = document.querySelector(".adviceCont");
+const dice = document.querySelector(".dice-cont");
 
 const setAd = () => {
   fetch(url)
@@ -12,4 +13,7 @@ const setAd = () => {
     });
 };
 
-setAd();
+dice.addEventListener("click", () => {
+  adviceCont.textContent = "Loading...";
+  setAd();
+});
