@@ -9,6 +9,10 @@ module.exports = {
         "grayishBlue" : "hsl(217, 19%, 38%)",
         "darkGrayishBlue" : " hsl(217, 19%, 24%)",
         "darkBlue" : "hsl(218, 23%, 16%)",
+      },
+
+      fontFamily: {
+        "manrope": ["Manrope", "sans-serif"]
       }
     },
   },
