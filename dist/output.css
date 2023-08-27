@@ -584,6 +584,22 @@ video {
   width: 100%;
 }
 
+.max-w-sm {
+  max-width: 24rem;
+}
+
+.max-w-\[425px\] {
+  max-width: 425px;
+}
+
+.max-w-\[600px\] {
+  max-width: 600px;
+}
+
+.max-w-\[500px\] {
+  max-width: 500px;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -698,5 +714,19 @@ video {
 
   .sm\:hidden {
     display: none;
+  }
+
+  .sm\:rounded-lg {
+    border-radius: 0.5rem;
+  }
+
+  .sm\:rounded-xl {
+    border-radius: 0.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:rounded-xl {
+    border-radius: 0.75rem;
   }
 }
